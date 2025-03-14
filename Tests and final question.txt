@@ -1,7 +1,14 @@
 1. Is there a significant difference in median value of houses bounded by the Charles river or not? (T-test for independent samples)
 
-2. Is there a difference in Median values of houses (MEDV) for each proportion of owner occupied units built prior to 1940 (AGE)? (ANOVA)
+
+
+2. Is there a difference in Median values of houses (MEDV) for each proportion of owner-occupied units built prior to 1940 (AGE)? (ANOVA)
+
+
 
 3. Can we conclude that there is no relationship between Nitric oxide concentrations and proportion of non-retail business acres per town? (Pearson Correlation)
 
-4. What is the impact of an additional weighted distance  to the five Boston employment centres on the median value of owner occupied homes? (Regression analysis)
+
+
+4. What is the impact of an additional weighted distance  to the five Boston employment centers on the median value of owner-occupied homes? (Regression analysis)
+
