@@ -1,4 +1,4 @@
-1. Is there a significant difference in the median value of houses bounded by the Charles river or not? (T-test for independent samples)
+1. Is there a significant difference in the median value of houses bounded by the Charles River or not? (T-test for independent samples)
 
 Hypothesis:
 There is not a significant difference in the median value of the houses bounded by the Charles River
@@ -8,7 +8,7 @@ a = 0.05
 P Value became 1.4651540072350996e^-305
 
 Conclusion:
-Because the P Value, 1.465154e^-305, is less than a, 0.05, the Null Hypothesis is ignored, so the there is a significant difference in the median value of houses bounded by the Charles River.
+Because the P Value, 1.465154e^-305, is less than a, 0.05, the Null Hypothesis is ignored, so there is a significant difference in the median value of houses bounded by the Charles River.
 
 2. Is there a difference in Median values of houses (MEDV) for each proportion of owner-occupied units built prior to 1940 (AGE)? (ANOVA)
 
@@ -20,23 +20,27 @@ a = 0.05
 P Value became 3.20946197250671e^-176
 
 Conclusion:
-Because the P Value, 3.209462e^-176, is less than a, 0.05, the Null Hypothesis is ignored, so there is a significant difference in Median Values of Houses for each Proportion of the owner-ocupied units built prior to 1940.
+Because the P Value, 3.209462e^-176, is less than a, 0.05, the Null Hypothesis is ignored, so there is a significant difference in Median Values of Houses for each Proportion of the owner-occupied units built prior to 1940.
 
-3. Can we conclude that there is no relationship between Nitric oxide concentrations and proportion of non-retail business acres per town? (Pearson Correlation)
+3. Can we conclude that there is no relationship between Nitric oxide concentrations and the proportion of non-retail business acres per town? (Pearson Correlation)
 
 Hypothesis:
-Yes, there is no relationship between Nitric Oxide concentrations and proportion of non-retail business acres per town
+Yes, there is no relationship between Nitric Oxide concentrations and the proportion of non-retail business acres per town
 
 Test:
 a = 0.05
 P Value became 7.913361061210442e^-98
 
 Conclusion:
-Because the P Value, 7.913361e^-98, is less than a, 0.05, the Null Hypothesis is ignored, so there is no relationship between Nitric Oxide concentrations and proportion of non-retail business acres per town
+Because the P Value, 7.913361e^-98, is less than a, 0.05, the Null Hypothesis is ignored, so there is no relationship between Nitric Oxide concentrations and the proportion of non-retail business acres per town
 
 4. What is the impact of an additional weighted distance to the five Boston employment centers on the median value of owner-occupied homes? (Regression analysis)
 
-Hypothesis: There won't be an impact of an aditional weighted distance to the five Boston employment centers on the median value of owner-occupied homes
+Hypothesis: There won't be an impact of an additional weighted distance to the five Boston employment centers on the median value of owner-occupied homes
 
 Test:
 a = 0.05
+P Value became 0.00 for both the constant and "DIS"
+
+Conclusion:
+Because the P Value, 0.00, is smaller than a, 0.05, the Null Hypothesis is ignored, so there is no impact og an additional weighted distance to the Five Boston employment Centers on the Median Value of owner-occupied homes.
