@@ -17,7 +17,10 @@ There is a difference in the Median Values of Houses for each Proportion of the 
 
 Test:
 a = 0.5
-P Value became 
+P Value became 3.20946197250671e^-176
+
+Conclusion:
+Because the P Value, 3.209462e^-176, is less than a, 0.05, the Null Hypothesis is ignored, so there is a significant difference in Median Values of Houses for each Proportion of the owner-ocupied units built prior to 1940.
 
 3. Can we conclude that there is no relationship between Nitric oxide concentrations and proportion of non-retail business acres per town? (Pearson Correlation)
 
