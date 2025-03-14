@@ -1,10 +1,14 @@
-1. Is there a significant difference in median value of houses bounded by the Charles river or not? (T-test for independent samples)
+1. Is there a significant difference in the median value of houses bounded by the Charles river or not? (T-test for independent samples)
 
 Hypothesis:
-There is not a significant difference in median value of the houses bounded by the Charles River
+There is not a significant difference in the median value of the houses bounded by the Charles River
 
 Test:
+a = 0.05
+P Value = 1.4651540072350996e^-305
 
+Conclusion:
+Because the P Value, 1.465154e^-305, is less than a, 0.05, the Null Hypothesis is ignored, so the there is a significant difference in the median value of houses bounded by the Charles River.
 
 2. Is there a difference in Median values of houses (MEDV) for each proportion of owner-occupied units built prior to 1940 (AGE)? (ANOVA)
 
